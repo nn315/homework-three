@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-org {
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: monospace;
+}
+
+.footer-icons .fa-brands {
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+
+nav {
+  height: 50px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.wrapper {
+  width: 100%;
+  height: 200px;
+}
+.wrapper .home-frontContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.wrapper .home-frontContainer .welcomeimg {
+  background-image: url(../assets/images/ionela-mat-mXFcQsECFWw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 600px;
+}
+.wrapper .home-frontContainer .welcomeText {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: #486573;
+}
+.wrapper .home-frontContainer .welcomeText .welbold {
+  font-family: cursive;
+  font-size: 60px;
+  color: #486573;
+}
+.wrapper .home-frontContainer .welcome-btn {
+  background-color: beige;
+  width: 45%;
+  height: 60px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+.wrapper .home-frontContainer .welcome-btn a {
+  text-decoration: none;
+  color: lightgreen;
+}
+.wrapper .section-two .specialized-box .special {
+  background-color: #486573;
+  width: 100%;
+  height: auto;
+  color: wheat;
+  font-size: 40px;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .section-two .specialized-box .special-iconsbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.wrapper .section-two .specialized-box .special-iconsbox .digestive-box {
+  height: 300px;
+  border: solid 2px lightseagreen;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.wrapper .section-two .specialized-box .special-iconsbox .digestive-text {
+  font-family: monospace;
+  font-size: 20px;
+}
+.wrapper .section-three {
+  background-color: beige;
+  padding: 20px;
+}
+.wrapper .section-three .veggieimg {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/pexels-janetrangdoan-793759.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+.wrapper .section-three .veggieText {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}
+
+.about-wrapper {
+  width: 100%;
+  background-color: beige;
+}
+.about-wrapper .about-headingbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-wrapper .about-headingbox .heading1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.about-wrapper .about-headingbox .heading2 {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #22495A;
+  letter-spacing: 1px;
+}
+.about-wrapper .bg-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-wrapper .bg-section {
+  background-color: whitesmoke;
+  width: 80%;
+  padding-top: 30px;
+}
+.about-wrapper .bg-section .second-section .secondText-box {
+  width: 50%;
+  height: 500px;
+  padding: 10px;
+}
+.about-wrapper .bg-section .second-section .secondText-box .second-text {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #22495A;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.about-wrapper .bg-section .second-section h2 {
+  color: #22495A;
+  margin-top: 30px;
+}
+.about-wrapper .bg-section .second-section .img-background {
+  background-color: burlywood;
+  width: 45%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about-wrapper .bg-section .second-section .img-background .secondImg {
+  background-image: url(../assets/images/ionela-mat-js7qliWArIU-unsplash\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: -20%;
+}
+.about-wrapper .bg-section .second-section .img-background .veg {
+  background-image: url(../assets/images/pexels-marcus-aurelius-9788610.jpg);
+}
+.about-wrapper .bg-section .second-section .img-background .pic {
+  position: absolute;
+  top: 20%;
+}
+.about-wrapper .bg-section .two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serve-wrapper {
+  width: 100%;
+  background-color: beige;
+  border: dashed black 3px;
+}
+.serve-wrapper .heading-serBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.serve-wrapper .heading-serBox .serhead-one {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.serve-wrapper .heading-serBox .serhead-two {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #22495A;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.serve-wrapper .product-section-two {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.serve-wrapper .product-section-two .items-box {
+  width: 303px;
+  border: 2px solid #22495A;
+}
+.serve-wrapper .product-section-two .items-box .item-img {
+  background-image: url(../assets/images/pexels-ifreestock-616833.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 250px;
+}
+.serve-wrapper .product-section-two .items-box .mind {
+  background-image: url(../assets/images/pexels-manjose-57556.jpg);
+}
+.serve-wrapper .product-section-two .items-box .sugar {
+  background-image: url(../assets/images/pexels-element5-775032.jpg);
+}
+.serve-wrapper .product-section-two .items-box .item-title {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.serve-wrapper .product-section-two .items-box .item-day {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #22495A;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.serve-wrapper .product-section-two .items-box .item-price {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #22495A;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.serve-wrapper .product-section-two .items-box .item-btn {
+  background-color: burlywood;
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.serve-wrapper .product-section-two .items-box .item-btn a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #22495A;
+}
+
+.contact-wrapper {
+  width: 100%;
+  background-color: beige;
+}
+.contact-wrapper .contact-headerbox {
+  background-color: #486573;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.contact-wrapper .contact-headerbox .contact-headerText {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: blanchedalmond;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-img {
+  background-image: url(../assets/images/pexels-picjumbo-com-55570-196650.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 600px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-textbox {
+  background-color: bisque;
+  width: 40%;
+  height: 300px;
+  padding: 40px;
+  margin-left: -30px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-title {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-link a {
+  color: black;
+  font-size: 18px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-link {
+  margin-bottom: 15px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .hori-line {
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-duration {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.contact-wrapper .contact-sectiontwo .contactFlex-box .contact-btn {
+  background-color: burlywood;
+  color: #22495A;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogwrapper {
+  background-color: beige;
+  width: 100%;
+}
+.blogwrapper .blogheader-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+}
+.blogwrapper .blogheader-box .blog-header1 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 2px;
+}
+.blogwrapper .blogheader-box .blog-header2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: #22495A;
+  letter-spacing: 2px;
+}
+.blogwrapper .postbox {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.blogwrapper .blog-box {
+  border: solid 2px black;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.blogwrapper .blog-box .blog-content {
+  width: 50%;
+}
+.blogwrapper .blog-box .blog-pic {
+  background-image: url(../assets/images/pexels-foodie-factor-162291-566566.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+.blogwrapper .blog-box .blogtwo {
+  background-image: url(../assets/images/pexels-sora-shimazaki-5938357.jpg);
+}
+.blogwrapper .blog-box .blogthree {
+  background-image: url(../assets/images/pexels-shvetsa-3987223.jpg);
+}
+.blogwrapper .blog-box .blog-title {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #22495A;
+  letter-spacing: 2px;
+}
+.blogwrapper .blog-box .blog-text {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+.blogwrapper .blog-box .blog-horiline {
+  border: none;
+  border-top: 1px solid black;
+  margin: 20px 0;
+  width: 400px;
+  margin-top: 100px;
+}
+.blogwrapper .blog-box .ratings {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}

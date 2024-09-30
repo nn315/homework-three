@@ -1,0 +1,122 @@
+.about-wrapper{
+
+width: 100%;
+
+background-color: beige;
+
+
+
+
+    .about-headingbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+.heading1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #22495A;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+   
+}
+
+.heading2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: #22495A;
+    letter-spacing: 1px;
+  
+}
+
+
+    }
+
+    .bg-flex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .bg-section{
+
+background-color:whitesmoke;
+width: 80%;
+padding-top: 30px;
+
+
+.second-section{
+
+    .secondText-box{
+width: 50%;
+height: 500px;
+padding: 10px;
+
+
+        .second-text{
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            
+            color: #22495A;
+            letter-spacing: 1px;
+            margin-bottom: 100px;
+            margin-top: 50px;
+        } 
+    }
+
+    h2{
+        color: #22495A;
+        margin-top: 30px;
+    }
+
+.img-background{
+background-color: burlywood;
+width: 45%;
+height: 400px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+    .secondImg{
+
+background-image: url(../assets/images/ionela-mat-js7qliWArIU-unsplash\ \(1\).jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 300px;
+height: 400px;
+
+position: absolute;
+top: -20%;
+    }
+    .veg{
+        background-image: url(../assets/images/pexels-marcus-aurelius-9788610.jpg);
+    }
+
+    .pic{
+        position: absolute;
+        top:20%;
+    }
+
+   
+
+}
+
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+    }
+
+}

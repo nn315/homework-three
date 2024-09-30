@@ -1,0 +1,116 @@
+.serve-wrapper{
+width: 100%;
+background-color: beige;
+border:dashed black 3px;
+    .heading-serBox{
+      
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+        .serhead-one{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: #22495A;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .serhead-two{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            
+            color: #22495A;
+            letter-spacing: 1px;
+            text-align: center;
+            width: 70%;
+            margin-bottom: 30px;
+        }
+    }
+
+
+    .product-section-two{
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+        .items-box{
+width:303px;
+
+
+
+border: 2px solid #22495A;
+
+            .item-img{
+
+background-image: url(../assets/images/pexels-ifreestock-616833.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 300px;
+height: 250px;
+            }
+
+            .mind{
+                background-image: url(../assets/images/pexels-manjose-57556.jpg);
+              
+            }
+
+            .sugar{
+                background-image: url(../assets/images/pexels-element5-775032.jpg);
+            }
+
+            .item-title{
+                font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #22495A;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+ 
+            }
+
+            .item-day{
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                color: #22495A;
+                letter-spacing: 2px;
+                margin-bottom: 15px;
+            }
+
+            .item-price{
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                color: #22495A;
+                letter-spacing: 2px;
+                margin-bottom: 15px;
+            }
+
+
+            .item-btn{
+                background-color: burlywood;
+                width: 130px;
+                height: 50px;
+                border-radius: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 15px;
+            }
+
+            .item-btn a{
+                text-decoration: none;
+                
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: #22495A;
+            }
+        }
+    }
+
+
+}
